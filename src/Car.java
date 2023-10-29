@@ -17,7 +17,6 @@ public class Car {
             observer.update(state);
         }
     }
-
     public void updateCarState(CarState newState) {
         state = newState;
         notifyObservers();
